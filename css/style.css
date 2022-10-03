@@ -61,6 +61,11 @@
   .trends-wrap,.trends-categories {
     display: flex;
     list-style-type: none;
+    padding: 0;
+  }
+  .trends-banner {
+    min-height: 320px;
+    width: 24%;
   }
   .garden {
     position: relative;
@@ -99,6 +104,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 0;
   }
   .lemons {
     position: relative;
@@ -139,10 +145,10 @@
     letter-spacing: 0.15px;
     line-height: 1em;
   } */
-  .card-title-link:hover {
+  .trends-banner-link:hover {
     color: #b59f5b;
   }
-  .card-title-link {
+  .trends-banner-title {
     font-family: OpenSans;
     font-weight: 700;
     font-style: normal;
