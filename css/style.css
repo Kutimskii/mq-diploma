@@ -36,9 +36,11 @@
     opacity: 0.6;
     z-index: -1;
   }
+  .trends {
+    min-height:445px;
+  }
   .trends-title {
     text-align: center;
-    min-height: 320px;
   }
   .trends-link {
     font-family: OpenSans;
@@ -118,14 +120,31 @@
     text-transform: uppercase;
     color: #b59f5b; 
   }
-  .card-tag:hover {
+  .categories-tag:hover {
     cursor: pointer;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: #dbd2b7;
     text-shadow: 0 0 1px #b59f5b;
   }
-
+  /* .card-title {
+    margin-top: 7px;
+    letter-spacing: 0.15px;
+    line-height: 1em;
+  } */
+  .card-title-link:hover {
+    color: #b59f5b;
+  }
+  .card-title-link {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    text-decoration: none;
+  }
 
 
 
