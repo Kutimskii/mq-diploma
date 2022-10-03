@@ -36,6 +36,26 @@
     opacity: 0.6;
     z-index: -1;
   }
+  .trends-title {
+    text-align: center;
+
+  }
+  .trends-link {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .trends-title:after {
+    content:"";
+    display: block;
+    width: 66px;
+    border-bottom: 3px solid #e1d9bd;
+    margin: 9px auto 28px;
+  }
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -103,9 +123,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-  }
-  .card.food {
-    margin-bottom: 62px;
   }
   .image-card {
     margin: 0 31px 0 0;
