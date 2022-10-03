@@ -37,7 +37,7 @@
     z-index: -1;
   }
   .trends {
-    min-height:445px;
+    min-height: 445px;
   }
   .trends-title {
     text-align: center;
@@ -63,10 +63,12 @@
     list-style-type: none;
   }
   .garden {
+    position: relative;
     background-image: url(../images/trend1.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 0;
   }
   .garden:after,
   .cheese:after,
@@ -84,22 +86,27 @@
     z-index: -1;
   }
   .cheese {
+    position: relative;
     background-image: url(../images/trend2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 0;
   }
   .mountains {
+    position: relative;
     background-image: url(../images/trend3.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }
   .lemons {
+    position: relative;
     background-image: url(../images/trend4.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    z-index: 0;
   }
 
 
