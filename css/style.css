@@ -38,6 +38,7 @@
   }
   .trends-title {
     text-align: center;
+    min-height: 320px;
   }
   .trends-link {
     font-family: OpenSans;
@@ -64,6 +65,21 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+  }
+  .garden:after,
+  .cheese:after,
+  .mountains:after,
+  .lemons:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: -1;
   }
   .cheese {
     background-image: url(../images/trend2.jpg);
