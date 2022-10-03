@@ -37,14 +37,13 @@
     z-index: -1;
   }
   .trends-title {
-    text-align: center;
-
+    margin: 0 auto;
   }
   .trends-link {
     font-family: OpenSans;
     font-weight: 700;
     font-style: normal;
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
@@ -56,6 +55,52 @@
     border-bottom: 3px solid #e1d9bd;
     margin: 9px auto 28px;
   }
+  .trends-wrap {
+    display: flex;
+    list-style-type: none;
+  }
+  .garden {
+    box-sizing: border-box;
+    background-image: url(../images/trend1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .categories-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: top;
+  }
+  
+  .categories-tag {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    color: #b59f5b; 
+  }
+  .card-tag:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #dbd2b7;
+    text-shadow: 0 0 1px #b59f5b;
+  }
+
+
+
+
+
+
+
+
+
+
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
