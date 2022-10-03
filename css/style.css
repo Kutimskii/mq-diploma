@@ -37,13 +37,14 @@
     z-index: -1;
   }
   .trends-title {
+    font-size: 20px;
     margin: 0 auto;
   }
   .trends-link {
     font-family: OpenSans;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
@@ -55,7 +56,7 @@
     border-bottom: 3px solid #e1d9bd;
     margin: 9px auto 28px;
   }
-  .trends-wrap {
+  .trends-wrap,.trends-categories {
     display: flex;
     list-style-type: none;
   }
