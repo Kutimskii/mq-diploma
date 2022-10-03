@@ -65,7 +65,7 @@
   }
   .trends-banner {
     min-height: 320px;
-    width: 24%;
+    min-width: 410px;
   }
   .garden {
     position: relative;
