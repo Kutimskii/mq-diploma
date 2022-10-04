@@ -11,6 +11,7 @@
     font-style: normal;
   }
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -22,7 +23,7 @@ body {
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: center center;
-    width:100vw;
+    width:100%;
     min-height: 450px;
     z-index: 0;
     padding-top: 28px;
@@ -71,6 +72,7 @@ body {
   }
   .trends-categories-wrap {
     border:rgba(181, 159, 91, 0.6) solid 3px;
+    padding: 39px 0 36px 34px;
   }
   .trends-categories {
     display: flex;
@@ -84,6 +86,9 @@ body {
     padding: 16px 18px;
     min-height: 320px;
     min-width: 25%;
+  }
+  .trends-banner-title {
+    margin-top: 15px;
   }
   .garden {
     position: relative;
