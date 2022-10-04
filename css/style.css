@@ -73,11 +73,9 @@
     list-style-type: none;
     margin: 0;
   }
-  trends-categories-wrap {
+  .trends-banner {
     display: flex;
     align-items: flex-end;
-  }
-  .trends-banner {
     min-height: 320px;
     min-width: 25%;
   }
