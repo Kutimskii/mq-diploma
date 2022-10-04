@@ -78,6 +78,7 @@ body {
     display: flex;
     list-style-type: none;
     margin: 0;
+    padding: 0;
   }
   .trends-banner {
     display: flex;
@@ -617,6 +618,39 @@ body {
     color: #b59f5b;
     margin-left: 5px;
   }
+
+  .shop-title {
+    text-align: center;
+  }
+  .shop-link {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .shop-title:after {
+    content:"";
+    display: block;
+    width: 66px;
+    border-bottom: 3px solid #e1d9bd;
+    margin: 9px auto 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
   .footer {
    padding: 0 14px 0 14px;
   }
