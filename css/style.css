@@ -10,10 +10,10 @@
     font-weight: 700;
     font-style: normal;
   }
-body {
+/* body {
     margin-left: 0;
     margin-right: 0;
-}
+} */
   .header {
     position: relative;
     box-sizing: border-box;
@@ -61,8 +61,7 @@ body {
     border-bottom: 3px solid #e1d9bd;
     margin: 9px auto 30px;
   }
-  .trends-wrap
-   {
+  .trends-wrap {
     display: flex;
     list-style-type: none;
     padding: 0;
@@ -73,6 +72,10 @@ body {
     display: flex;
     list-style-type: none;
     margin: 0;
+  }
+  trends-categories-wrap {
+    display: flex;
+    align-items: flex-end;
   }
   .trends-banner {
     min-height: 320px;
@@ -108,7 +111,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 0;
-    margin: 0 4px;
+    margin-left: 0.25vw;
   }
   .mountains {
     position: relative;
@@ -117,7 +120,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 0;
-    margin: 0 4px;
+    margin: 0 0.25vw;
   }
   .lemons {
     position: relative;
@@ -161,7 +164,7 @@ body {
   .trends-banner-link:hover {
     color: #b59f5b;
   }
-  .trends-banner-title {
+  .trends-banner-link {
     font-family: OpenSans;
     font-weight: 700;
     font-style: normal;
