@@ -652,6 +652,9 @@ body {
     flex-wrap: wrap;
     max-width: 300px;
   }
+  .shop-content {
+    max-width: 100%;
+  }
   .shop-content-title {
     font-family: OpenSans;
     font-weight: 700;
