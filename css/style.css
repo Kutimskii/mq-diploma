@@ -649,6 +649,7 @@ body {
   .shop-list {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .shop-content-title {
     font-family: OpenSans;
@@ -673,12 +674,12 @@ body {
     text-decoration-color: #000;
     text-shadow: 0 0 1px #000;
   }
-  .shop-content-link-text {
+  .shop-content-link {
     font-family: OpenSans;
     font-weight: 700;
     font-style: normal;
     font-size: 15px;
-    color: #000;
+    color: #b59f5b;
     text-decoration: none;
   }
   .shop-content-link:hover {
