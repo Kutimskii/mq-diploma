@@ -41,6 +41,19 @@ body {
     opacity: 0.6;
     z-index: -1;
   }
+  .header-title {
+    width: 695px;
+    margin: auto;
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 1.67em;
+    color: #ffffff;
+    text-align: center;
+    }
   .trends {
     min-height: 445px;
   }
@@ -166,11 +179,7 @@ body {
     text-decoration-color: #b59f5b;
     text-shadow: 0 0 1px #b59f5b;
   }
-  /* .card-title {
-    margin-top: 7px;
-    letter-spacing: 0.15px;
-    line-height: 1em;
-  } */
+
   .trends-banner-link:hover {
     color: #b59f5b;
   }
@@ -198,19 +207,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
   }
-  .header-title {
-    width: 695px;
-    margin: auto;
-    padding-top: 100px;
-    text-transform: uppercase;
-    font-family: OpenSans;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 45px;
-    line-height: 1.67em;
-    color: #ffffff;
-    text-align: center;
-    }
+
   
   .menu-logo {
     display: flex;
@@ -638,9 +635,49 @@ body {
     border-bottom: 3px solid #e1d9bd;
     margin: 9px auto 30px;
   }
+  .shop {
+    width: 100%;
+  }
+  .shop-wrap {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: flex-end;
+  }
+  .shop-content-title {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .shop-content-description {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+  }
 
-
-
+  .shop-content-description:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000;
+    text-shadow: 0 0 1px #000;
+  }
+  .shop-content-link:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #b59f5b;
+    text-shadow: 0 0 1px #b59f5b;
+  }
 
 
 
