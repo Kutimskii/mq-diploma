@@ -650,6 +650,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 300px;
   }
   .shop-content-title {
     font-family: OpenSans;
