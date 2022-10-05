@@ -640,11 +640,15 @@ body {
   }
   .shop-wrap {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
     align-items: flex-end;
+  }
+  .shop-list {
+    display: flex;
+    flex-direction: column;
   }
   .shop-content-title {
     font-family: OpenSans;
@@ -666,10 +670,16 @@ body {
 
   .shop-content-description:hover {
     cursor: pointer;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
     text-decoration-color: #000;
     text-shadow: 0 0 1px #000;
+  }
+  .shop-content-link-text {
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
   }
   .shop-content-link:hover {
     cursor: pointer;
