@@ -798,12 +798,13 @@ body {
     margin-bottom: 50px;
     word-spacing: 0.5px;
   }
-  @media (min-width:641px and max-width:1200px) {
+  @media (min-width:641px) and (max-width:1200px) {
     .container {  
         max-width: 698px;
         margin: 0 auto;
       }
       .trends-banner {
+        flex-wrap: wrap;
         width: 50%;
       }
   }
