@@ -246,7 +246,7 @@ body {
   .hobby-news {
     display: flex;
     justify-content: space-between;
-    padding:0 14px 0 14px;
+    /* padding:0 14px 0 14px; */
   }
   .news-cards {
     width: 778px;
@@ -803,7 +803,7 @@ body {
         max-width: 698px;
         margin: 0 auto;
       }
-      .trends-banner {
+      .trends-wrap {
         flex-wrap: wrap;
         width: 50%;
       }
