@@ -97,7 +97,7 @@ body {
     box-sizing: border-box;
     padding: 16px 18px;
     min-height: 320px;
-    min-width: 24%;
+    width: 25%;
   }
   .trends-banner-title {
     margin-top: 15px;
@@ -204,6 +204,7 @@ body {
   .container {
     max-width: 1200px;
     margin: 0 auto;
+    
   }
 
   
@@ -239,9 +240,9 @@ body {
   .menu-list:nth-child(n+2) {
     margin-left: 34px;
   }
-  .hobby-news-cards {
+  /* .hobby-news-cards {
     margin-right: 60px;
-  }
+  } */
   .hobby-news {
     display: flex;
     justify-content: space-between;
@@ -333,7 +334,7 @@ body {
     margin: 0 0 10px;
   }
   .side-bar {
-    margin-left: 60px;
+    /* margin-left: 60px; */
     width: 272px;
   }
   .new-posts-title {
@@ -648,6 +649,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 348px;
+    margin-top: 28px;
   }
   .shop-list-pic {
     margin-bottom: -30px;
@@ -735,7 +737,9 @@ body {
     color: #000;
     margin: 0;
   }
-  
+  .footer {
+    margin-top: 64px;
+  }
   .social-networks {
     display: flex;
     align-items: center;
@@ -794,4 +798,12 @@ body {
     margin-bottom: 50px;
     word-spacing: 0.5px;
   }
-  
+  @media (min-width:641px and max-width:1200px) {
+    .container {  
+        max-width: 698px;
+        margin: 0 auto;
+      }
+      .trends-banner {
+        width: 50%;
+      }
+  }
