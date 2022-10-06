@@ -674,7 +674,7 @@ body {
   }
 
   .shop-content-description:hover {
-    cursor: pointer;
+    cursor: default;
     text-decoration-color: #000;
     text-shadow: 0 0 1px #000;
   }
@@ -688,8 +688,6 @@ body {
   }
   .shop-content-link:hover {
     cursor: pointer;
-    text-decoration-line: underline;
-    text-decoration-thickness: 2px;
     text-decoration-color: #b59f5b;
     text-shadow: 0 0 1px #b59f5b;
   }
