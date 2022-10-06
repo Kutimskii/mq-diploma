@@ -8,7 +8,7 @@
     font-family: "OpenSans";
     src: url(../fonts/OpenSans-Bold.woff);
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
   }
 body {
     box-sizing: border-box;
@@ -48,7 +48,7 @@ body {
     text-transform: uppercase;
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 45px;
     line-height: 1.67em;
     color: #ffffff;
@@ -59,11 +59,9 @@ body {
   }
   .trends-title {
     text-align: center;
-  }
-  .trends-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
@@ -166,7 +164,7 @@ body {
   .categories-tag {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     text-decoration-line: none;
     text-transform: uppercase;
@@ -186,7 +184,7 @@ body {
   .trends-banner-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 20px;
     color: #fff;
     text-transform: uppercase;
@@ -276,7 +274,7 @@ body {
   .card-tag {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     text-decoration-line: none;
     text-transform: uppercase;
@@ -300,7 +298,7 @@ body {
   .card-title-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
@@ -320,7 +318,7 @@ body {
   .card-author {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 12px;
     color: #000;
     margin-left: 13px;
@@ -345,7 +343,7 @@ body {
   .new-posts-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
@@ -385,7 +383,7 @@ body {
   .post-title-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
@@ -454,7 +452,7 @@ body {
   .subscribe-title-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
@@ -502,7 +500,7 @@ body {
   .subscribe-btn-text {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
@@ -517,7 +515,7 @@ body {
   .tags-title-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
@@ -549,7 +547,7 @@ body {
   .tags-list-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 12px;
     text-decoration: none;
     text-transform: uppercase;
@@ -570,7 +568,7 @@ body {
   .themes-title-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     color: #000;
     text-transform: uppercase;
@@ -598,7 +596,7 @@ body {
   .themes-list-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 14px;
     text-decoration: none;
     color: #000; 
@@ -610,7 +608,7 @@ body {
   .themes-index {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 12px;
     color: #b59f5b;
     margin-left: 5px;
@@ -618,11 +616,9 @@ body {
 
   .shop-title {
     text-align: center;
-  }
-  .shop-link {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
@@ -652,13 +648,18 @@ body {
     flex-wrap: wrap;
     max-width: 300px;
   }
+  .shop-list-pic {
+    margin-bottom: 20px;
+
+  }
   .shop-content {
     max-width: 100%;
+    border: solid 3px rgba(181, 159, 91, 0.6);
   }
   .shop-content-title {
     font-family: OpenSans;
     font-weight: 700;
-    font-style: normal;
+    font-style: bold;
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
@@ -666,7 +667,7 @@ body {
   }
   .shop-content-description {
     font-family: OpenSans;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     font-size: 15px;
     color: #000;
@@ -680,7 +681,7 @@ body {
   }
   .shop-content-link {
     font-family: OpenSans;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     font-size: 15px;
     color: #b59f5b;
@@ -691,13 +692,39 @@ body {
     text-decoration-color: #b59f5b;
     text-shadow: 0 0 1px #b59f5b;
   }
+  .shop-purchase-wrap {
+    display: flex;
+  }
+  .shop-button {
+    border: none;
+    width: 140px;
+    height: 48px;
+    background-color: #b59f5b;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .shop-button:hover {
+    cursor: pointer;
+    background-color: #323232;
+  }
 
-
-
-
-
-
-
+  .shop-price-old {
+    text-decoration: line-through;
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 14px;
+    color: #000;
+  }
+  .shop-price-new {
+    text-decoration: line-through;
+    font-family: OpenSans;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 20px;
+    color: #000;
+  }
 
 
   
