@@ -680,6 +680,7 @@ body {
     color: #000;
     text-decoration: none;
     margin: 0 0 25px 0;
+    padding: 0 20px;
   }
 
   .shop-content-description:hover {
@@ -730,7 +731,6 @@ body {
     margin: 0;
   }
   .shop-price-new {
-    text-decoration: line-through;
     font-family: OpenSans;
     font-weight: 700;
     font-style: bold;
