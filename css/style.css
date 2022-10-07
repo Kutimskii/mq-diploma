@@ -805,6 +805,8 @@ body {
       }
       .trends-wrap {
         flex-wrap: wrap;
+      }
+      .trends-banner {
         width: 50%;
       }
   }
