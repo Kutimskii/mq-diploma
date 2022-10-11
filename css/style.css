@@ -42,7 +42,7 @@ body {
     z-index: -1;
   }
   .header-title {
-    width: 695px;
+    max-width: 695px;
     margin: auto;
     padding-top: 100px;
     text-transform: uppercase;
