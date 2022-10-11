@@ -692,7 +692,7 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 348px;
+    width: 30%;
     margin-top: 28px;
   }
   .shop-list-pic {
@@ -843,6 +843,9 @@ body {
     word-spacing: 0.5px;
   }
   @media (min-width:641px) and (max-width:1200px) {
+    .menu-button {
+      display: block;
+    }
     .container {  
         max-width: 700px;
         margin: 0 auto;
@@ -861,5 +864,8 @@ body {
       }
       .card {
         flex-wrap: wrap;
+      }
+      .shop-list {
+        width: 48%;
       }
   }
