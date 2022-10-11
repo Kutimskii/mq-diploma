@@ -837,12 +837,6 @@ body {
     word-spacing: 0.5px;
   }
   @media (min-width:641px) and (max-width:1200px) {
-    .menu-button {
-      display: block;
-    }
-    .menu-wrap-list {
-      display: none;
-    }
     .container {  
         max-width: 700px;
         margin: 0 auto;
