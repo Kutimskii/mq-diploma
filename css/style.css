@@ -55,7 +55,7 @@ body {
     text-align: center;
     }
   .trends {
-    min-height: 445px;
+    margin-bottom: 64px;
   }
   .trends-title {
     text-align: center;
@@ -124,6 +124,7 @@ body {
     background-color: #000000;
     opacity: 0.6;
     z-index: -1;
+    box-sizing: border-box;
   }
   .cheese {
     position: relative;
@@ -240,16 +241,13 @@ body {
   .menu-list:nth-child(n+2) {
     margin-left: 34px;
   }
-  /* .hobby-news-cards {
-    margin-right: 60px;
-  } */
+
   .hobby-news {
     display: flex;
     justify-content: space-between;
-    /* padding:0 14px 0 14px; */
   }
   .news-cards {
-    width: 778px;
+    max-width: 780px;
     padding: 0;
     margin: 0;
   }
@@ -268,7 +266,9 @@ body {
     margin: -3px 0 0 0;
     align-items: top;
   }
-  
+  .card-content {
+    max-width: 380px;
+  }
   .card-list:nth-child(n+2) {
     margin-left: 18px;
   }
@@ -335,7 +335,7 @@ body {
   }
   .side-bar {
     /* margin-left: 60px; */
-    width: 272px;
+    max-width: 272px;
   }
   .new-posts-title {
     text-align: center;
@@ -810,9 +810,12 @@ body {
         width: 50%;
       }
       .cheese {
-        margin: 0 0 4px 4px;
+        margin: 0 0 0 4px;
       }
       .mountains {
         margin: 4px 4px 0 0;
+      }
+      .card {
+        flex-wrap: wrap;
       }
   }
