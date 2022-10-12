@@ -916,6 +916,9 @@ body {
     .header {
       background-image: url(../images/banner-mobile.jpg);
     }
+    .menu-wrap-list {
+      display: none;
+    }
     .menu-button {
       display: block;
     }
