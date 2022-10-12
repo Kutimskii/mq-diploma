@@ -284,7 +284,9 @@ body {
   }
 
   
-  
+  .hobby-news-cards {
+    width: 100%;
+  }
 
   .hobby-news {
     display: flex;
@@ -299,9 +301,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-  }
-  .image-card {
-    margin: 0 31px 0 0;
   }
   .card-wrap-list {
     display: flex;
@@ -852,12 +851,12 @@ body {
     word-spacing: 0.5px;
   }
   @media (min-width:641px) and (max-width:1200px) {
-    .menu-button {
-      display: block;
-    }
     .container {  
         max-width: 700px;
         margin: 0 auto;
+      }
+      .menu-button {
+        display: block;
       }
       .trends-wrap {
         flex-wrap: wrap;
