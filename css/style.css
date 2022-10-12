@@ -916,6 +916,14 @@ body {
     .header {
       background-image: url(../images/banner-mobile.jpg);
     }
+    .header-title {
+      font-size: 26px;
+    }
+    .menu-logo {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
     .menu-wrap-list {
       display: none;
     }
@@ -933,19 +941,37 @@ body {
     .mountains {
     margin: 0 0 4px 0;
   }
-  .hobby-news {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    .hobby-news {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
 
   }
-  .hobby-news-cards {
-    max-width: 330px;
+    .hobby-news-cards {
+      max-width: 330px;
   }
-  .card {
-    flex-wrap: wrap;
+    .card {
+      flex-wrap: wrap;
   }
-  .shop-list {
-    width: 100%;
+    .card-content {
+      margin-top: 16px;
   }
+    .shop-list {
+      width: 100%;
+  }
+}
+@media (max-width:640px) and (orientation: landscape) {
+  .trends-banner {
+    width: 25%;
+  }
+  .trends-wrap {
+    flex-wrap: nowrap;
+  }
+  .cheese {
+    margin: 0 0 0 4px;
+  }
+  .mountains {
+    margin: 0 4px 0 4px;
+  }
+
 }
