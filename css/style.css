@@ -62,7 +62,8 @@ body {
   }
   .menu-holder {
     display: flex;
-    width: 66%;
+    max-width: 530px;
+    width: 100%;
     justify-content: end;
   }
   .menu-button {
@@ -77,6 +78,7 @@ body {
     position: relative;
     text-indent: -9999px;
     cursor: pointer;
+    margin-left: 28px;
   }
   .menu-button:before,
   .menu-button:after {
@@ -108,9 +110,10 @@ body {
   .menu-wrap-list {
     display: flex;
     list-style-type: none;
-    margin: 0 13px 0 0;
     padding-left: 25px;
     width: 100%; 
+    max-width: 462px;
+    justify-content: space-between;
   }
   
   .menu-link {
@@ -125,9 +128,6 @@ body {
   }
   .menu-link:hover {
     text-decoration: underline;
-  }
-  .menu-list:nth-child(n+2) {
-    margin-left: 34px;
   }
   .trends {
     margin-bottom: 64px;
