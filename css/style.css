@@ -162,6 +162,7 @@ body {
   }
   .trends-categories {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -887,7 +888,7 @@ body {
     .trends-banner {
       width: 25%;
     }
-    .card {
+    .trends-wrap {
       flex-wrap: nowrap;
     }
     .cheese {
