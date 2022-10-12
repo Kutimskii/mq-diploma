@@ -883,3 +883,14 @@ body {
         margin-top: 16px;
       }
   }
+  @media (min-width:641px) and (max-width:1200px) and (orientation: landscape) {
+    .trends-banner {
+      width: 25%;
+    }
+    .cheese {
+      margin: 0 0 0 4px;
+    }
+    .mountains {
+      margin: 0 4px 0 4px;
+    }
+  }
