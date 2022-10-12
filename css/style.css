@@ -865,6 +865,9 @@ body {
       .trends-banner {
         width: 49.6%;
       }
+      .trends-banner-link {
+        font-size: 17px;
+      }
       .cheese {
         margin: 0 0 0 4px;
       }
