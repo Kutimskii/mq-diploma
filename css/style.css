@@ -159,6 +159,8 @@ body {
   .trends-categories-wrap {
     border:rgba(181, 159, 91, 0.6) solid 3px;
     padding: 39px 0 36px 34px;
+    box-sizing: border-box;
+    width: 100%
   }
   .trends-categories {
     display: flex;
@@ -914,6 +916,12 @@ body {
     .header {
       background-image: url(../images/banner-mobile.jpg);
     }
+    .menu-button {
+      display: block;
+    }
+    .trends-wrap {
+      flex-wrap: wrap;
+    }      
     .trends-banner {
       width: 100%;
     }
@@ -921,6 +929,18 @@ body {
     .cheese,
     .mountains {
     margin: 0 0 4px 0;
+  }
+  .hobby-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  .hobby-news-cards {
+    max-width: 330px;
+  }
+  .card {
+    flex-wrap: wrap;
   }
   .shop-list {
     width: 100%;
