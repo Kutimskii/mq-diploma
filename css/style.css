@@ -956,6 +956,13 @@ body {
     .card-content {
       margin-top: 16px;
   }
+  .side-bar {
+    max-width: 330px;
+  }
+  .post-content {
+    width: 73%;
+  }
+  
     .shop-list {
       width: 100%;
   }
