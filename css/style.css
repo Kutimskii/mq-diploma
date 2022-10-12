@@ -856,6 +856,12 @@ body {
         max-width: 700px;
         margin: 0 auto;
       }
+      .header {
+      background-image: url(../images/banner-bg-tablet.jpg);
+    }
+      .header-title {
+        font-size: 40px;
+      }
       .menu-button {
         display: block;
       }
@@ -901,3 +907,22 @@ body {
       margin: 0 4px 0 4px;
     }
   }
+  @media (max-width:640px) {
+    .container {
+      max-width: 330px;
+    }
+    .header {
+      background-image: url(../images/banner-mobile.jpg);
+    }
+    .trends-banner {
+      width: 100%;
+    }
+    .garden,
+    .cheese,
+    .mountains {
+    margin: 0 0 4px 0;
+  }
+  .shop-list {
+    width: 100%;
+  }
+}
