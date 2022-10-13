@@ -974,6 +974,9 @@ body {
   .trends-banner {
     width: 49.6%;
   }
+  .garden {
+    margin: 0 0 0 0;
+  }
   .cheese {
     margin: 0 0 0 4px;
   }
