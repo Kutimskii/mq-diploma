@@ -972,16 +972,13 @@ body {
 }
 @media (max-width:640px) and (orientation: landscape) {
   .trends-banner {
-    width: 25%;
-  }
-  .trends-wrap {
-    flex-wrap: nowrap;
+    width: 49.6%;
   }
   .cheese {
     margin: 0 0 0 4px;
   }
   .mountains {
-    margin: 0 4px 0 4px;
+    margin: 4px 4px 0 0;
   }
 
 }
