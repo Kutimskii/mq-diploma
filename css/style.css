@@ -936,6 +936,9 @@ body {
     .trends-banner {
       width: 100%;
     }
+    .trends-banner-link {
+      font-size: 16px;
+    }
     .garden,
     .cheese,
     .mountains {
