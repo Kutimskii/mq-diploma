@@ -27,7 +27,7 @@ body {
     min-height: 449px;
     z-index: 0;
     padding-top: 25px;
-    margin-bottom: 57px;
+    margin-bottom: 55px;
   }
   .header:after {
     content: "";
@@ -384,7 +384,7 @@ body {
   }
   .new-posts-title {
     text-align: center;
-    margin: -5px 0 0 2px;
+    margin: -10px 0 0 2px;
   }
   .new-posts-link {
     font-family: OpenSans;
@@ -611,7 +611,7 @@ body {
     outline: 3px solid #b59f5b;
   }
   .themes-container {
-    margin: 41px 0 0 0;
+    margin: 50px 0 0 0;
   }
   .themes-title {
     text-align: center;
@@ -667,7 +667,7 @@ body {
   }
 
   .shop-title {
-    margin-top: -5px;
+    margin-top: -3px;
     text-align: center;
     font-family: OpenSans;
     font-weight: 700;
@@ -701,7 +701,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 30%;
-    margin-top: 28px;
+    margin-top: 12px;
   }
   .shop-list-pic {
     margin-bottom: -36px;
