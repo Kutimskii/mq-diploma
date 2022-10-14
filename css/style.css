@@ -901,14 +901,17 @@ body {
       }
       .card {
         flex-wrap: wrap;
-        margin-bottom: 54px;
-
+        margin-bottom: 52px;
+      }
+      .food .card-text {
+        padding: 0 8px 0 0;
       }
       .card-date-author {
         margin: 27px 0 25px 0;
       }
-      .card-title {
-        margin-top: 4px;
+      .music .card-title {
+        margin: 5px -8px 0 0;
+        letter-spacing: normal;
       }
       .card-title-link {
         font-size: 17px;
@@ -916,15 +919,33 @@ body {
       .card-wrap-list {
         margin: -9px 0 0 0;
       }
+      .shop-title {
+        margin: 1px 0 12px 0;
+        font-size: 18px;
+      }
+      .shop-content-title {
+        font-size: 17px;
+      }
       .shop-list {
         width: 48%;
+        margin-top: 20px;
+        margin-bottom: 3px;
+      }
+      .shop-list-pic {
+        margin-bottom: -40px
+      }
+      .shop-purchase-wrap {
+        padding: 0 22px 0px 22px;
       }
       .image-card {
         margin: 0;
       }
       .card-content {
-        margin-top: 16px;
+        margin-top: 18px;
         max-width: 392px;
+      }
+      .footer {
+        margin-top: 23px;
       }
   }
   @media (min-width:641px) and (max-width:1200px) and (orientation: landscape) {
@@ -997,7 +1018,7 @@ body {
   .post-content {
     width: 73%;
   }
-  
+
     .shop-list {
       width: 100%;
   }
