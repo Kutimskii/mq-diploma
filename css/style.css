@@ -1038,10 +1038,10 @@ body {
       margin-bottom: 47px;
   }
   .music .card-title {
-    margin: 7px 0 14px 0;
+    margin: 7px 0 11px 0;
   }
   .music .card-date-author {
-    margin: 15px 0 10px 0;
+    margin: 12px 0 10px 0;
   }
   .card-title {
     margin: 5px 0 10px 0;
@@ -1061,8 +1061,55 @@ body {
   .card-text {
     font-size: 14px;
   }
+  .tags-list {
+    margin: 0 8px 12px 0;
+  }
   .side-bar {
     max-width: 330px;
+  }
+  .new-posts-title{
+    margin: -2px 0 0 2px
+  }
+  .new-posts-link {
+    font-size: 16px;
+  }
+  .search-btn {
+    min-width: 14%
+  }
+  .subscribe-container {
+    margin: 35px 0 0 0;
+  }
+  .subscribe-title{
+    font-size: 16px;
+  }
+  .tags-container {
+    margin: 35px 0 0 0;
+  }
+  .tags-title-link {
+    font-size: 16px;
+  }
+  .themes-container {
+    margin: -25px 0 0 0;
+  }
+  .themes-title-link {
+    font-size: 16px;
+  }
+  .shop-title {
+    font-size: 16px;
+    margin-top: 29px;
+  }
+  .shop-title:after {
+    margin: 13px auto 1px;
+  }
+  .shop-content-title {
+    font-size: 17px;
+    margin: 48px 0 5px 20px;
+  }
+  .shop-content-description {
+    margin: 0 0 26px 0;
+  }
+  .shop-content {
+    height: 220px;
   }
   .post-content {
     width: 73%;
@@ -1070,6 +1117,13 @@ body {
 
     .shop-list {
       width: 100%;
+      margin-bottom: 16px;
+  }
+  .footer {
+    margin-top: 33px;
+  }
+  .footer-text {
+    margin-top: 45px;
   }
 }
 @media (max-width:640px) and (orientation: landscape) {
