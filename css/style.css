@@ -602,7 +602,7 @@ body {
     outline: 3px solid #b59f5b;
   }
   .themes-container {
-    margin: 50px 0 0 0;
+    margin: 40px 0 0 0;
   }
   .themes-title {
     text-align: center;
@@ -848,18 +848,44 @@ body {
       }
       .header {
       background-image: url(../images/banner-bg-tablet.jpg);
+      padding-top: 42px;
+      min-height: 393px;
+      margin-bottom: 42px;
     }
       .header-title {
         font-size: 40px;
+        padding-top: 83px;
+        line-height: 1.45em;
+        max-width: 650px;
       }
+      .trends-title {
+        font-size: 18px;
+      }
+      .trends-title:after {
+      margin: 9px auto 21px;
+    }
       .menu-button {
         display: block;
+        margin: 15px 0 0;
+      }
+      .trends {
+        margin-bottom: 50px;
       }
       .trends-wrap {
         flex-wrap: wrap;
       }
+      .trends-categories-wrap {
+      padding: 32px 29px 5px 29px
+    }
       .trends-banner {
         width: 49.6%;
+        min-height: 246px;
+        padding: 16px 18px 16px 20px;
+
+      }
+      .trends-banner-title {
+        margin: 1px 0 23px 0;
+        line-height: 1.0em;
       }
       .trends-banner-link {
         font-size: 17px;
