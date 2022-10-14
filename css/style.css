@@ -1035,9 +1035,13 @@ body {
   }
     .card {
       flex-wrap: wrap;
+      margin-bottom: 47px;
   }
   .music .card-title {
     margin: 7px 0 14px 0;
+  }
+  .music .card-date-author {
+    margin: 15px 0 10px 0;
   }
   .card-title {
     margin: 5px 0 10px 0;
