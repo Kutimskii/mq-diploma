@@ -130,7 +130,7 @@ body {
     text-decoration: underline;
   }
   .trends {
-    margin-bottom: 63px;
+    margin-bottom: 65px;
   }
   .trends-title {
     text-align: center;
@@ -158,7 +158,7 @@ body {
   }
   .trends-categories-wrap {
     border:rgba(181, 159, 91, 0.6) solid 3px;
-    padding: 33px 10px 10px 32px;
+    padding: 33px 10px 10px 33px;
     box-sizing: border-box;
     width: 100%
   }
@@ -178,7 +178,7 @@ body {
     width: 25%;
   }
   .trends-banner-title {
-    margin-top: 2px;
+    margin: 4px 0 16px;
   }
   .garden {
     position: relative;
@@ -271,15 +271,6 @@ body {
     text-decoration: none;
   }
 
-
-
-
-
-
-
-
-
-
   .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -313,7 +304,7 @@ body {
     align-items: top;
   }
   .card-content {
-    max-width: 380px;
+    max-width: 377px;
   }
   .card-list:nth-child(n+2) {
     margin-left: 18px;
@@ -380,7 +371,7 @@ body {
     margin: 0 0 10px;
   }
   .side-bar {
-    max-width: 275px;
+    max-width: 272px;
   }
   .new-posts-title {
     text-align: center;
@@ -434,7 +425,7 @@ body {
     text-decoration: none;
   }
   .post-content {
-    width: 66%;
+    width: 67%;
   }
   .post-date {
     font-family: OpenSans;
@@ -701,7 +692,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 30%;
-    margin-top: 12px;
+    margin-top: 10px;
   }
   .shop-list-pic {
     margin-bottom: -36px;
