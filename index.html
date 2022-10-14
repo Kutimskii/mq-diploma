@@ -10,7 +10,15 @@
 <body>
   <header class="header">
       <div class="menu-logo container">
-        <a class="link-logo" href="#0"><img class="logo" src="svg/noemi-logo.svg" width="180px" alt="Логотип"></a>
+        <a class="link-logo" href="#0">
+          <picture>
+            <source
+            media = "(min-width: 641px) and (max-width: 1200px)"
+            srcset="svg/noemi-logo.svg" width="160px"
+            >
+            <img class="logo" src="svg/noemi-logo.svg" width="180px" alt="Логотип">
+          </picture>
+        </a>
         <nav class="menu-holder">
           <ul class="menu-wrap-list">
             <li class="menu-list"><a class="menu-link" href="#0">Главная</a></li>
@@ -76,6 +84,9 @@
               <source 
               media="(max-width: 640px)"
               srcset="images/last-post1.jpg" width="330px">
+              <source 
+              media="(min-width: 641px) and (max-width: 1200px)"
+              srcset="images/last-post1.jpg" width="392px">
               <img class="image-card" src="images/last-post1.jpg" width="381px" alt="Солнечный берег"> 
             </picture>
             <div class="card-content">
@@ -94,6 +105,9 @@
               <source 
               media="(max-width: 640px)"
               srcset="images/last-post2.jpg" width="330px">
+              <source 
+              media="(min-width: 641px) and (max-width: 1200px)"
+              srcset="images/last-post2.jpg" width="392px">
               <img class="image-card" src="images/last-post2.jpg" width="382px" alt="Йога на берегу моря">
             </picture>
             <div class="card-content">
@@ -112,6 +126,9 @@
               <source 
               media="(max-width: 640px)"
               srcset="images/last-post3.jpg" width="330px">
+              <source 
+              media="(min-width: 641px) and (max-width: 1200px)"
+              srcset="images/last-post3.jpg" width="392px">
               <img class="image-card" src="images/last-post3.jpg" width="382px" alt="Концерт">
             </picture>
             <div class="card-content">
@@ -130,6 +147,9 @@
                 media="(max-width: 640px)"
                 width="330px"
                 srcset="images/last-post4.jpg" width="330px">
+                <source 
+              media="(min-width: 641px) and (max-width: 1200px)"
+              srcset="images/last-post4.jpg" width="392px">
               <img class="image-card" src="images/last-post4.jpg" width="382px" alt="Еда на столе">
             </picture>
             <div class="card-content">
@@ -148,6 +168,9 @@
               <source 
                 media="(max-width: 640px)"
                 srcset="images/last-post5.jpg" width="330px">
+                <source 
+                media="(min-width: 641px) and (max-width: 1200px)"
+                srcset="images/last-post5.jpg" width="392px">
               <img class="image-card" src="images/last-post5.jpg" width="382px" alt="Подушка"> 
             </picture>
             <div class="card-content">
