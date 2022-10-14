@@ -1067,7 +1067,7 @@ body {
   .side-bar {
     max-width: 330px;
   }
-  .new-posts-title{
+  .new-posts-title {
     margin: -2px 0 0 2px
   }
   .new-posts-link {
@@ -1077,9 +1077,9 @@ body {
     min-width: 14%
   }
   .subscribe-container {
-    margin: 35px 0 0 0;
+    margin: 39px 0 0 0;
   }
-  .subscribe-title{
+  .subscribe-title-link{
     font-size: 16px;
   }
   .tags-container {
@@ -1089,7 +1089,7 @@ body {
     font-size: 16px;
   }
   .themes-container {
-    margin: -25px 0 0 0;
+    margin: 28px 0 0 0;
   }
   .themes-title-link {
     font-size: 16px;
@@ -1109,8 +1109,12 @@ body {
     margin: 0 0 26px 0;
   }
   .shop-content {
-    height: 220px;
+    min-height: 220px;
+    height: auto;
   }
+  .shop-purchase-wrap{
+  margin: 0 0 23px 0;
+}
   .post-content {
     width: 73%;
   }
@@ -1120,7 +1124,7 @@ body {
       margin-bottom: 16px;
   }
   .footer {
-    margin-top: 33px;
+    margin-top: 28px;
   }
   .footer-text {
     margin-top: 45px;
