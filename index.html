@@ -356,11 +356,38 @@
             <li class="social-list"><a class="social-icon-dribble" href="#0"><span class="visually-hidden">Профиль компании вконтакте</span></a></li>
             <li class="social-list"><a class="social-icon-pinerest" href="#0"><span class="visually-hidden">Профиль компании в Pinterest</span></a></li>
             <li class="social-list"><a class="social-icon-twitter" href="#0"><span class="visually-hidden">Профиль компании в Twitter</span></a></li>
-    </ul>
-  </div>
+          </ul>
         <div class="footer-text"><span class="basement-text">Copyright © 2009–2019 City Blog LLC.</span>
+    </footer> 
   </div>
-    </footer>  
-  </div>
+  <section class="popup-container">
+    <div class="popup">
+      <h2 class="popup-title">Ваш фидбек</h2>
+      <form class="popup-feedback">
+        <label class="select-group">
+          <span class="select-label">Как часто вы заходите на сайт?</span>
+          <select class="select-frequency">
+            <option value="Almost every day" selected>Почти каждый день</option>
+            <option value="Once a several day">Раз в несколько дней</option>
+            <option value="Once a several weeks">Раз в несколько недель</option>
+            <option value="Several times in a year">Несколько раз в год</option>
+          </select>
+        </label>
+        <div class="subscribe-container">
+          <p class="subscribe-text">Вы подписаны на e-mail рассылку?</p>
+          <input id="subscribe-mail-yes" type="radio" name="answer" value="yes">
+          <label for="subscribe-mail-yes" class="subscribe-mail">Да</label>
+          <input id="subscribe-mail-not" type="radio" name="answer" value="Not">
+          <label for="subscribe-mail-not" class="subscribe-mail">Нет</label>
+        </div>
+          <label>
+            <p class="text-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
+            <textarea type="text" class="text-field" placeholder="Может, больше рецепов?"></textarea>
+          </label>
+        <button class="send-feedback-button" type="button"><span class="send-btn-text">Отправить</span>
+        </button>
+        <button class="popup-close" type="button">Закрыть окно</button>
+      </form> 
+</section> 
 </body>
 </html>
