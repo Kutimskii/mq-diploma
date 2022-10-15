@@ -841,27 +841,10 @@ body {
     margin-bottom: 50px;
     word-spacing: 0.5px;
   }
-  .popup-title {
-    text-align: center;
-    font-family: OpenSans;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 20px;
-    color: #000;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 0 0 0 0;
-  }
-  .popup-title:after {
-    content:"";
-    display: block;
-    width: 66px;
-    border-bottom: 3px solid #e1d9bd;
-    margin: 8px auto 23px;
-  }
+
 
 .popup-container {
-  display: flex;
+  display: none;
   position: fixed;
     top: 0;
     left: 0;
@@ -884,6 +867,24 @@ body {
   max-width: 390px;
   max-height: 590px;
   padding: 48px 29px 29px 32px;
+}
+.popup-title {
+  text-align: center;
+  font-family: OpenSans;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 0 0 0;
+}
+.popup-title:after {
+  content:"";
+  display: block;
+  width: 66px;
+  border-bottom: 3px solid #e1d9bd;
+  margin: 8px auto 23px;
 }
 .select-frequency {
   padding: 0 18px;
@@ -1320,6 +1321,10 @@ body {
     top: -271px;
     padding: 23px 29px 29px 24px;
   }
+  
+
+.popup-title {
+    font-size: 16px}
   .popup-title:after {
     margin: 8px auto 26px;
 }
