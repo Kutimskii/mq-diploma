@@ -1313,7 +1313,61 @@ body {
   .footer-text {
     margin-top: 45px;
   }
+  .popup {
+    max-width: 330px;
+    top: -250px;
+    max-height: 545px;
+    top: -271px;
+    padding: 23px 29px 29px 24px;
+  }
+  .popup-title:after {
+    margin: 8px auto 26px;
 }
+.subscribe-text {
+  margin-bottom: 2px;
+}
+.subscribe-container {
+  margin: 33px 0 0 0;
+}
+.subscribe-mail {
+margin-right: 30px;
+}
+.subscribe-mail:before {
+  content: "";
+  position: absolute;
+  left: -21px;
+  bottom: -3px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../svg/form-empty-circle.svg);
+  background-size: contain;
+  z-index: 0;
+  cursor: pointer;
+}
+.subscribe-container input[type="radio"]:checked + label:before {
+  content: "";
+  position: absolute;
+  left: -21px;
+  bottom: -3px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../svg/form-circle.svg);
+  background-size: contain;
+  cursor: pointer;
+}
+.subscribe-container input[type="radio"] {
+  margin: 10px 0px 0 5px;
+}
+.subscribe-mail-text {
+  margin: 0 0 0 9px;
+}
+.text-label {
+  margin: 31px 0 4px 0;
+}
+  }
+
 @media (max-width:640px) and (orientation: landscape) {
   .trends-banner {
     width: 49.5%;
@@ -1327,5 +1381,4 @@ body {
   .mountains {
     margin: 4px 4px 0 0;
   }
-
 }
