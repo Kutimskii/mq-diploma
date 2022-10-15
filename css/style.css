@@ -901,41 +901,58 @@ body {
       }
       .card {
         flex-wrap: wrap;
-        margin-bottom: 52px;
+        margin-bottom: 55px;
       }
       .food .card-text {
         padding: 0 8px 0 0;
+        margin-bottom: 5px
+      }
+      .prints .card-text {
+        padding: 0 2px 0 0;
       }
       .card-date-author {
-        margin: 27px 0 25px 0;
+        margin: 32px 0 25px 0;
       }
       .music .card-title {
         margin: 5px -8px 0 0;
         letter-spacing: normal;
       }
+      .card-title{
+      margin-top: 9px;
+      letter-spacing: 0.15px;
+      line-height: 0;
+    }
       .card-title-link {
         font-size: 17px;
       }
       .card-wrap-list {
         margin: -9px 0 0 0;
       }
+      .tags-container {
+        margin: 50px 0 0 0;
+      }
+      .themes-container {
+        margin: 43px 0 0 0;
+      }
       .shop-title {
-        margin: 1px 0 12px 0;
+        margin: -2px 0 8px 0;
         font-size: 18px;
       }
       .shop-content-title {
         font-size: 17px;
+        margin: 52px 0 5px 20px;
       }
       .shop-list {
-        width: 48%;
+        width: 48.5%;
         margin-top: 20px;
-        margin-bottom: 3px;
+        margin-bottom: 7px;
       }
       .shop-list-pic {
         margin-bottom: -40px
       }
       .shop-purchase-wrap {
         padding: 0 22px 0px 22px;
+        margin-top: 26px;
       }
       .image-card {
         margin: 0;
@@ -945,7 +962,7 @@ body {
         max-width: 392px;
       }
       .footer {
-        margin-top: 23px;
+        margin-top: 20px;
       }
   }
   @media (min-width:641px) and (max-width:1200px) and (orientation: landscape) {
@@ -1077,7 +1094,7 @@ body {
     min-width: 14%
   }
   .subscribe-container {
-    margin: 39px 0 0 0;
+    margin: 35px 0 0 0;
   }
   .subscribe-title-link{
     font-size: 16px;
