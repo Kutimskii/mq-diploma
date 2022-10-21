@@ -706,7 +706,7 @@ body {
   .shop-content {
     max-width: 100%;
     box-sizing: border-box;
-    padding-top: 46px;
+    padding: 46px 25px 0 20px;
     border: solid 3px rgba(181, 159, 91, 0.6);
   }
   .pillow .shop-content {
@@ -726,7 +726,7 @@ body {
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-    margin: 0 0 5px 20px;
+    margin: 0 0 5px 0;
   }
   .shop-content-description {
     font-family: OpenSans;
@@ -763,7 +763,7 @@ body {
   .shop-purchase-wrap {
     display: flex;
     justify-content: space-between;
-    padding: 0 25px 0px 19px;
+    padding: 0;
     margin: 0 0 20px 0;
   }
   .shop-button {
