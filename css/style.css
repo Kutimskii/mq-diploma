@@ -1031,9 +1031,9 @@ body {
       }
       .header {
       background-image: url(../images/banner-bg-tablet.jpg);
-      padding-top: 42px;
       min-height: 393px;
       margin-bottom: 42px;
+      padding: 25px 0 110px 0;
     }
     .menu-wrap-list {
       display: none;
@@ -1043,9 +1043,10 @@ body {
     }
       .header-title {
         font-size: 40px;
-        padding-top: 83px;
         line-height: 1.45em;
-        max-width: 650px;
+        margin-top: 85px;
+        padding: 0 25px 0;
+        box-sizing: border-box;
       }
       .trends-title {
         font-size: 18px;
@@ -1058,7 +1059,7 @@ body {
         margin: 15px 0 0;
       }
       .trends {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
       }
       .trends-wrap {
         flex-wrap: wrap;
@@ -1089,12 +1090,17 @@ body {
         flex-wrap: wrap;
         margin-bottom: 55px;
       }
+      .card-content {
+        margin-top: 15px;
+        box-sizing: border-box;
+        padding-right: 30px;
+      }
       .food .card-text {
         padding: 0 8px 0 0;
         margin-bottom: 5px
       }
       .prints .card-text {
-        padding: 0 2px 0 0;
+        padding: 0 0 0 0;
       }
       .card-date-author {
         margin: 32px 0 25px 0;
@@ -1118,7 +1124,10 @@ body {
         margin: 51px 0 0 0;
       }
       .themes-container {
-        margin: 43px 0 0 0;
+        margin: 50px 0 0 0;
+      }
+      .shop-content {
+        padding-top: 0;
       }
       .shop-title {
         margin: -2px 0 8px 0;
@@ -1133,22 +1142,24 @@ body {
         margin-top: 20px;
         margin-bottom: 7px;
       }
+      .frame .shop-content {
+        padding-bottom: 0;
+      }
       .shop-list-pic {
         margin-bottom: -40px
       }
       .shop-purchase-wrap {
-        padding: 0 22px 0px 22px;
-        margin-top: 26px;
+        padding: 0;
+        margin-top: 0;
       }
       .image-card {
         margin: 0;
       }
-      .card-content {
-        margin-top: 18px;
-        max-width: 392px;
-      }
       .footer {
-        margin-top: 20px;
+        margin-top: 48px;
+      }
+      .social-wrap-list {
+        margin: 30px 0 75px 0;
       }
   }
   @media (min-width:641px) and (max-width:1200px) and (orientation: landscape) {
