@@ -736,7 +736,7 @@ body {
     color: #000;
     text-decoration: none;
     margin: 0 0 22px 0;
-    padding: 0 20px;
+    padding: 0;
   }
 
   .shop-content-description:hover {
@@ -1033,7 +1033,7 @@ body {
       background-image: url(../images/banner-bg-tablet.jpg);
       min-height: 393px;
       margin-bottom: 42px;
-      padding: 25px 0 110px 0;
+      padding: 42px 0 110px 0
     }
     .menu-wrap-list {
       display: none;
@@ -1094,6 +1094,7 @@ body {
         margin-top: 15px;
         box-sizing: border-box;
         padding-right: 30px;
+        margin-left: 0;
       }
       .food .card-text {
         padding: 0 8px 0 0;
@@ -1127,7 +1128,7 @@ body {
         margin: 50px 0 0 0;
       }
       .shop-content {
-        padding-top: 0;
+        padding: 49px 20px;
       }
       .shop-title {
         margin: -2px 0 8px 0;
@@ -1135,7 +1136,7 @@ body {
       }
       .shop-content-title {
         font-size: 17px;
-        margin: 52px 0 5px 20px;
+        margin: 0 0 8px 0;
       }
       .shop-list {
         width: 48.5%;
