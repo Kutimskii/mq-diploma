@@ -29,7 +29,7 @@ body {
     background-position: center center;
     width:100%;
     z-index: 0;
-    padding: 25px 0 129px 0;
+    padding: 25px 0 124px 0;
     margin-bottom: 55px;
   }
   .header:after {
@@ -381,7 +381,7 @@ body {
   }
   .new-posts-title {
     text-align: center;
-    margin: -10px 0 0 2px;
+    margin: 0;
   }
   .new-posts-link {
     font-family: OpenSans;
@@ -555,7 +555,7 @@ body {
     color: #fff;
   }
   .tags-container {
-    margin: 48px 0 0 0;
+    margin: 51px 0 0 0;
   }
   .tags-title {
     text-align: center;
@@ -575,7 +575,7 @@ body {
     display: block;
     width: 66px;
     border-bottom: 3px solid #e1d9bd;
-    margin: 9px auto 24px;
+    margin: 9px auto 21px;
   }
   .tags-wrap-list {
     display: flex;
@@ -589,7 +589,7 @@ body {
   .tags-list {
     border: 3px solid #eeeeee;
     padding: 3px 8px 3px;
-    margin: 3px 5px;
+    margin: 3px 7px 2px;
   }
   .tags-list-link {
     font-family: OpenSans;
@@ -606,7 +606,7 @@ body {
     outline: 3px solid #b59f5b;
   }
   .themes-container {
-    margin: 45px 0 0 0;
+    margin: 47px 0 0 0;
   }
   .themes-title {
     text-align: center;
@@ -638,7 +638,7 @@ body {
     display: block;
     width: 100%;
     border-bottom: 1px solid #eeeeee;
-    margin: 12px 0 11px 0;
+    margin: 11px 0 11px 0;
   }
   .themes-list-link {
     font-family: OpenSans;
@@ -659,6 +659,7 @@ body {
     font-size: 12px;
     color: #b59f5b;
     margin-left: 5px;
+    vertical-align: super;
   }
 
   .shop-title {
@@ -705,8 +706,17 @@ body {
   .shop-content {
     max-width: 100%;
     box-sizing: border-box;
-    height: 267px;
+    padding-top: 46px;
     border: solid 3px rgba(181, 159, 91, 0.6);
+  }
+  .pillow .shop-content {
+    padding-bottom: 49px;
+  }
+  .doll .shop-content {
+    padding-bottom: 6px;
+  }
+  .frame .shop-content {
+    padding-bottom: 29px;
   }
   .shop-content-title {
     font-family: OpenSans;
@@ -716,7 +726,7 @@ body {
     color: #000;
     text-transform: uppercase;
     text-decoration: none;
-    margin: 46px 0 5px 20px;
+    margin: 0 0 5px 20px;
   }
   .shop-content-description {
     font-family: OpenSans;
@@ -746,6 +756,9 @@ body {
     cursor: pointer;
     text-decoration-color: #b59f5b;
     text-shadow: 0 0 1px #b59f5b;
+  }
+  .shop-price-old-rabbit {
+    opacity: 0;
   }
   .shop-purchase-wrap {
     display: flex;
@@ -789,16 +802,18 @@ body {
   }
   .social-networks {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 83px;
     background-color: #f4f7f6;
+    margin: 0;
+    padding: 0
   }
   .social-wrap-list {
     display: flex;
     list-style-type: none;
-    margin: 0; 
-    padding: 5px 0 0 3px;
+    margin: 30px 0 102px 0;
+    padding: 0 0 0 0;
   }
   .social-list:nth-child(n+2) {
     margin-left: 26px;
@@ -832,7 +847,6 @@ body {
     background-position: center center;
   }
   .footer-text {
-    margin-top: 71px;
     text-align: center;
     padding-left: 10px;
   }
