@@ -154,7 +154,6 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    align-items: flex-end;
   }
   .trends-categories-wrap {
     border:rgba(181, 159, 91, 0.6) solid 3px;
