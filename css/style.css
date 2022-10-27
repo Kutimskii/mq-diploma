@@ -700,7 +700,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     width: 30%;
-    margin-top: 10px;
+    margin-top: 18px;
   }
   .shop-list-pic {
     margin-bottom: -36px;
@@ -1072,7 +1072,6 @@ body {
     }
       .trends-banner {
         width: 49.6%;
-        min-height: 246px;
         padding: 16px 18px 16px 20px;
 
       }
@@ -1107,7 +1106,7 @@ body {
         padding: 0 0 0 0;
       }
       .card-date-author {
-        margin: 32px 0 25px 0;
+        margin: 32px 0 45px 0;
       }
       .music .card-title {
         margin: 5px -8px 0 0;
