@@ -1091,7 +1091,7 @@ body {
       }
       .card {
         flex-wrap: wrap;
-        margin-bottom: 55px;
+        margin-bottom: 59px;
       }
       .card-content {
         margin-top: 15px;
@@ -1134,7 +1134,7 @@ body {
         padding: 49px 20px;
       }
       .shop-title {
-        margin: -2px 0 8px 0;
+        margin: 0;
         font-size: 18px;
       }
       .shop-content-title {
@@ -1144,7 +1144,7 @@ body {
       .shop-list {
         width: 48.5%;
         margin-top: 20px;
-        margin-bottom: 7px;
+        margin-bottom: 11px;
       }
       .frame .shop-content {
         padding-bottom: 0;
