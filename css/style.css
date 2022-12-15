@@ -135,7 +135,7 @@ body {
   .trends-title {
     text-align: center;
     font-family: OpenSans;
-    font-weight: 700;
+    font-weight: 700; 
     font-style: normal;
     font-size: 20px;
     color: #000;
@@ -873,6 +873,9 @@ body {
   background-color: rgba(0,0,0,0.6);
   z-index: 10;
 }
+.popup-container.closed {
+  display: none;
+}
 .popup {
   display: flex;
   box-sizing: border-box;
@@ -909,7 +912,7 @@ body {
   height: 48px;
   width: 100%;
   box-sizing: border-box;
-  -webkit-appearance: none;
+  -webkit-appearance-: none;
   background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
