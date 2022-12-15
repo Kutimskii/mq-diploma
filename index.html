@@ -7,12 +7,15 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
   <script>
+    document.onreadystatechange = function(){
+   if(document.readyState === 'complete'){
     let popup = document.querySelector('.popup-container');
     let closePopup = document.querySelector('.popup-close');
-    console.log(popup)
     closePopup.onclick = function () {
       popup.classList.add('closed');
-};
+    };
+   }
+}
   </script>
 </head>
 <body>
