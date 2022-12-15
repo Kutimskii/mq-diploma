@@ -6,7 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src= "JS/index.js"></script>
+  <script>
+    let popup = document.querySelector('.popup-container');
+    let closePopup = document.querySelector('.popup-close');
+    console.log(popup)
+    closePopup.onclick = function () {
+      popup.classList.add('closed')
+}
+  </script>
 </head>
 <body>
   <header class="header">
