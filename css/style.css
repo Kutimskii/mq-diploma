@@ -912,7 +912,7 @@ body {
   height: 48px;
   width: 100%;
   box-sizing: border-box;
-  -webkit-appearance-: none;
+  -webkit-appearance: none;
   background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
